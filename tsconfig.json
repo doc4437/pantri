@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["vitest", "vite/client", "@testing-library/jest-dom"]
+  },
+  "include": ["src", "vite.config.ts", "vitest.setup.ts"],
+  "exclude": ["node_modules"]
+}
