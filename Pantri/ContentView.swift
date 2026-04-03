@@ -73,20 +73,6 @@ struct ContentView: View {
 
                 CountBadge(count: store.restockCount)
             }
-
-            HStack {
-                Text("Pantry for Saturday")
-                    .font(.caption)
-                    .tracking(2)
-                    .textCase(.uppercase)
-                    .foregroundStyle(pantriSoftInk)
-
-                Spacer()
-
-                Text(store.hasRestockItems ? "Restock list building" : "Tap items as they run out")
-                    .font(.caption)
-                    .foregroundStyle(pantriSoftInk)
-            }
         }
     }
 
