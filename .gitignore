@@ -1,0 +1,11 @@
+# macOS clutter
+.DS_Store
+
+# Xcode user-specific state
+*.xcuserstate
+xcuserdata/
+**/xcuserdata/
+
+# Common local build noise
+DerivedData/
+.build/
